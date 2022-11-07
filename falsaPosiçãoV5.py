@@ -52,12 +52,8 @@ def metodo_fp(func, a, b, erro_aceito, max_it):
         
         if erro <= erro_aceito:
             loopCondition = False
-    else:
-        if f(xi) * f(a) < 0:
-            print(f"A raiz aproximada é {b}.")
-        
-        elif f(xi) * f(b) < 0:
-            print(f"A raiz aproximada é {a}.")
+    
+    print(f"A raiz aproximada é {xi}.")
         
 print("Método de falsa posição em python.")
 print("Por favor seguir as instruções:")
